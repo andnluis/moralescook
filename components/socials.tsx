@@ -15,28 +15,28 @@ const TopBar = () => {
         {/* Íconos de Redes Sociales */}
         <div className="flex space-x-4">
           <Link
-            href="https://facebook.com"
+            href="https://www.facebook.com/moralescook22"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-blue-600">
             <FaFacebookF className="h-5 w-5" />
           </Link>
           <Link
-            href="https://instagram.com"
+            href="https://www.instagram.com/moralescook3/"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-pink-500">
             <FaInstagram className="h-5 w-5" />
           </Link>
           <Link
-            href="https://tiktok.com"
+            href="https://www.tiktok.com/@moralescook?is_from_webapp=1&sender_device=pc"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-black">
             <FaTiktok className="h-5 w-5" />
           </Link>
           <Link
-            href="https://wa.me/1234567890"
+            href="https://wa.link/bs28ik"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-green-500">

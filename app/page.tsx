@@ -38,7 +38,8 @@ export default function Home() {
         </div>
       </div>
     </div>
-    <div className="flex flex-col items-center justify-center min-h-screen px-6 py-12 bg-yellow-300 lg:flex-row lg:items-start">
+    {/*  Promesa de Calidad*/}
+    <div className="flex flex-col items-center justify-center min-h-screen px-6 py-6 bg-yellow-300 lg:flex-row lg:items-start">
       {/* Left Side: Text Content */}
       <div className="w-full max-w-lg mb-8 text-left lg:mb-0 lg:mr-8">
         <h1 className="text-4xl font-bold text-gray-800 mb-4">
@@ -53,7 +54,7 @@ export default function Home() {
       </div>
 
       {/* Right Side: Image Grid */}
-      <div className="grid grid-cols-2 gap-4 w-full max-w-3xl">
+      <div className="grid grid-cols-4 gap-4 w-full max-w-3xl">
         {/* Example images: Replace with your image paths */}
         <Image
           src="/catering/c2.jpg"
@@ -70,21 +71,87 @@ export default function Home() {
           className="object-cover rounded shadow-lg"
         />
         <Image
-          src="/catering/c6.jpg"
+          src="/catering/c10.jpg"
           alt="Promesa 3"
           width={200}
           height={200}
           className="object-cover rounded shadow-lg"
         />
         <Image
-          src="/catering/c10.jpg"
+          src="/catering/c5.jpg"
           alt="Promesa 4"
-          width={100}
+          width={200}
           height={200}
           className="object-cover rounded shadow-lg"
         />
       </div>
     </div>
+
+    <div className="flex flex-col items-center justify-center min-h-screen px-6 py-12 bg-gray-100 lg:flex-row lg:items-start">
+
+    <section className="px-6 py-12 bg-gray-100">
+      {/* Section Title */}
+      <h2 className="text-center text-4xl font-bold text-gray-900 mb-8">
+        Nuestros Servicios
+      </h2>
+
+      {/* Services Grid */}
+      <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
+        {/* Service 1 */}
+        <a href="#" className="block bg-white shadow-md rounded-lg overflow-hidden hover:shadow-lg transition-shadow">
+          <img
+            alt="Servicio 1"
+            src="/catering/c6.jpg"
+            className="h-64 w-full object-cover sm:h-80 lg:h-96"
+          />
+          <div className="p-4">
+            <h3 className="text-lg font-bold text-gray-900 sm:text-xl">
+              Servicio de Catering
+            </h3>
+            <p className="mt-2 text-gray-700">
+              Boquitas elegantes y prácticas para impresionar a tus invitados.
+            </p>
+          </div>
+        </a>
+
+        {/* Service 2 */}
+        <a href="#" className="block bg-white shadow-md rounded-lg overflow-hidden hover:shadow-lg transition-shadow">
+          <img
+            alt="Servicio 2"
+            src="/comidas/a2.jpg"
+            className="h-64 w-full object-cover sm:h-80 lg:h-96"
+          />
+          <div className="p-4">
+            <h3 className="text-lg font-bold text-gray-900 sm:text-xl">
+              Almuerzos y Desayunos.
+            </h3>
+            <p className="mt-2 text-gray-700">
+              Sabores irresistibles. Cada platillo no solo es delicioso, sino también visualmente atractivo.
+            </p>
+          </div>
+        </a>
+
+        {/* Service 3 */}
+        <a href="#" className="block bg-white shadow-md rounded-lg overflow-hidden hover:shadow-lg transition-shadow">
+          <img
+            alt="Servicio 3"
+            src="/pasteles/p33.jpg"
+            className="h-64 w-full object-cover sm:h-80 lg:h-96"
+          />
+          <div className="p-4">
+            <h3 className="text-lg font-bold text-gray-900 sm:text-xl">
+              Respostería
+            </h3>
+            <p className="mt-2 text-gray-700">
+              Una experiencia culinaria que complementa tu día especial. Diseñados a tu medida.
+            </p>
+          </div>
+        </a>
+      </div>
+    </section>  
+
+    </div>
+
     </>
   );
 }
