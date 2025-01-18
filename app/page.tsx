@@ -149,8 +149,77 @@ export default function Home() {
         </a>
       </div>
     </section>  
-
     </div>
+    
+   <div className="flex flex-col items-center py-8 px-4 bg-gray-100">
+  {/* Título de la sección */}
+  <h1 className="text-2xl font-bold mb-6 text-center text-gray-900">Preguntas Frecuentes</h1>
+
+  {/* Contenedor de las preguntas */}
+  <div className="space-y-4 w-full max-w-3xl">
+    <details className="group border border-gray-200 rounded-lg [&_summary::-webkit-details-marker]:hidden" open>
+      <summary
+        className="flex cursor-pointer items-center justify-between gap-1.5 rounded-lg bg-gray-50 p-4 text-gray-900"
+      >
+        <h2 className="font-medium">¿Con cuánta anticipación debo hacer mi pedido?</h2>
+        <svg
+          className="size-5 shrink-0 transition duration-300 group-open:-rotate-180"
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke="currentColor"
+        >
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7" />
+        </svg>
+      </summary>
+      <p className="mt-4 px-4 leading-relaxed text-gray-700">
+        Todos los pedidos deben realizarse con al menos <strong>dos días de anticipación</strong>.
+      </p>
+    </details>
+
+    <details className="group border border-gray-200 rounded-lg [&_summary::-webkit-details-marker]:hidden">
+      <summary
+        className="flex cursor-pointer items-center justify-between gap-1.5 rounded-lg bg-gray-50 p-4 text-gray-900"
+      >
+        <h2 className="font-medium">¿Cuál es el área de cobertura para sus servicios de catering?</h2>
+        <svg
+          className="size-5 shrink-0 transition duration-300 group-open:-rotate-180"
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke="currentColor"
+        >
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7" />
+        </svg>
+      </summary>
+      <p className="mt-4 px-4 leading-relaxed text-gray-700">
+      Ofrecemos nuestro servicio únicamente en Tegucigalpa, Honduras.
+      </p>
+    </details>
+
+    <details className="group border border-gray-200 rounded-lg [&_summary::-webkit-details-marker]:hidden">
+      <summary
+        className="flex cursor-pointer items-center justify-between gap-1.5 rounded-lg bg-gray-50 p-4 text-gray-900"
+      >
+        <h2 className="font-medium">¿Cómo puedo hacer un pedido?</h2>
+        <svg
+          className="size-5 shrink-0 transition duration-300 group-open:-rotate-180"
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke="currentColor"
+        >
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7" />
+        </svg>
+      </summary>
+      <p className="mt-4 px-4 leading-relaxed text-gray-700">
+        Puedes hacer tu pedido a través de nuestro formulario web o por WhatsApp.
+      </p>
+    </details>
+  </div>
+</div>
+
+
 
     </>
   );
