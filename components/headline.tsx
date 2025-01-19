@@ -1,10 +1,10 @@
 "use client";
 
-import { Fragment } from "react";
-import { Disclosure, Menu, Transition } from "@headlessui/react";
+
+import { Disclosure} from "@headlessui/react";
 import Link from "next/link";
 import Image from "next/image";
-import { ChevronDownIcon } from "@heroicons/react/24/solid";
+
 
 const Navbar = () => {
   const leftmenu = [
