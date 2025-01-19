@@ -8,13 +8,13 @@ import Image from "next/image";
 
 const Navbar = () => {
   const leftmenu = [
-    { label: "Nuestros Servicios", href: "/services" },
-    { label: "Nuestra Promesa", href: "/promise" },
+    { label: "Nuestros Servicios", href: "#servicios" },
+    { label: "Nuestra Promesa", href: "#promesa" },
   ];
 
   const rightmenu = [
-    { label: "Nuestras Referencias", href: "/references" },
-    { label: "Contáctanos", href: "/contact" }, 
+    { label: "Nuestras Referencias", href: "#referencias" },
+    { label: "Contáctanos", href: "https://wa.link/bs28ik" }, 
   ];
 
   const mobilemenu = [...leftmenu, ...rightmenu];
@@ -29,9 +29,9 @@ const Navbar = () => {
               <Image
                 src="/logo.png"
                 alt="Logo Morales Cook"
-                width={120}
-                height={120}
-                className="h-12 w-12"
+                width={320}
+                height={320}
+                className="h-20 w-20"
               />
             </Link>
 
