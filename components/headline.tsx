@@ -36,10 +36,14 @@ const Navbar = () => {
             </Link>
 
             {/* Mobile Menu Button */}
-            <Disclosure.Button
-              className="md:hidden flex items-center justify-center p-2 text-gray-500 hover:text-blue-500 focus:outline-none">
+            <Disclosure.Button className="md:hidden flex items-center justify-center p-2 text-gray-500 hover:text-blue-500 focus:outline-none">
               {open ? (
-                <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <svg
+                  className="h-6 w-6"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
                   <path
                     strokeLinecap="round"
                     strokeLinejoin="round"
@@ -48,8 +52,18 @@ const Navbar = () => {
                   />
                 </svg>
               ) : (
-                <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16m-7 6h7" />
+                <svg
+                  className="h-6 w-6"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    d="M4 6h16M4 12h16m-7 6h7"
+                  />
                 </svg>
               )}
             </Disclosure.Button>
@@ -57,12 +71,20 @@ const Navbar = () => {
             {/* Desktop Menu */}
             <div className="hidden md:flex items-center space-x-6">
               {leftmenu.map((item) => (
-                <Link key={item.label} href={item.href} className="text-gray-600 hover:text-blue-500">
+                <Link
+                  key={item.label}
+                  href={item.href}
+                  className="text-gray-600 hover:text-blue-500"
+                >
                   {item.label}
                 </Link>
               ))}
               {rightmenu.map((item) => (
-                <Link key={item.label} href={item.href} className="text-gray-600 hover:text-blue-500">
+                <Link
+                  key={item.label}
+                  href={item.href}
+                  className="text-gray-600 hover:text-blue-500"
+                >
                   {item.label}
                 </Link>
               ))}
@@ -73,7 +95,11 @@ const Navbar = () => {
           <Disclosure.Panel className="md:hidden">
             <div className="space-y-2 px-4 pt-2 pb-3">
               {mobilemenu.map((item) => (
-                <Link key={item.label} href={item.href} className="block text-gray-600 hover:text-blue-500">
+                <Link
+                  key={item.label}
+                  href={item.href}
+                  className="block text-gray-600 hover:text-blue-500"
+                >
                   {item.label}
                 </Link>
               ))}
