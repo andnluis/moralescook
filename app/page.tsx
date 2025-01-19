@@ -6,7 +6,7 @@ import {Swiper, SwiperSlide} from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
-import { Navigation, Pagination } from "swiper/modules";
+import { Navigation } from "swiper/modules";
 
 export default function Home() {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
@@ -160,7 +160,7 @@ export default function Home() {
         >
           <SwiperSlide>
             <div className="relative overflow-hidden rounded-lg shadow-lg">
-              <img
+              <Image
                 src="/catering/c7.jpg"
                 alt="Catering"
                 className="w-full h-auto object-cover rounded-lg p-4"
@@ -176,7 +176,7 @@ export default function Home() {
 
           <SwiperSlide>
             <div className="relative overflow-hidden rounded-lg shadow-lg">
-              <img
+              <Image
                 src="/comidas/a2.jpg"
                 alt="Comidas"
                 className="w-full h-auto object-cover rounded-lg p-4"
@@ -192,7 +192,7 @@ export default function Home() {
 
           <SwiperSlide>
             <div className="relative overflow-hidden rounded-lg shadow-lg">
-              <img
+              <Image
                 src="/boquitas/b3.jpg"
                 alt="Boquitas"
                 className="w-full h-auto object-cover rounded-lg p-4"
@@ -208,7 +208,7 @@ export default function Home() {
 
           <SwiperSlide>
             <div className="relative overflow-hidden rounded-lg shadow-lg">
-              <img
+              <Image
                 src="/pasteles/p33.jpg"
                 alt="Pasteles"
                 className="w-full h-auto object-cover rounded-lg p-4"
