@@ -6,12 +6,12 @@ import Image from "next/image";
 
 const Navbar = () => {
   const leftmenu = [
-    { label: "Nuestros Servicios", href: "#servicios" },
-    { label: "Nuestra Promesa", href: "#promesa" },
+    { label: "Nuestros Servicios", href: "/#servicios" },
+    { label: "Nuestra Promesa", href: "/#promesa" },
   ];
 
   const rightmenu = [
-    { label: "Nuestras Referencias", href: "#referencias" },
+    { label: "Nuestras Referencias", href: "/#referencias" },
     { label: "Contáctanos", href: "https://wa.link/bs28ik" },
   ];
 
