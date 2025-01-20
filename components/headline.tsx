@@ -1,10 +1,8 @@
 "use client";
 
-
-import { Disclosure} from "@headlessui/react";
+import { Disclosure } from "@headlessui/react";
 import Link from "next/link";
 import Image from "next/image";
-
 
 const Navbar = () => {
   const leftmenu = [
@@ -14,13 +12,13 @@ const Navbar = () => {
 
   const rightmenu = [
     { label: "Nuestras Referencias", href: "#referencias" },
-    { label: "Contáctanos", href: "https://wa.link/bs28ik" }, 
+    { label: "Contáctanos", href: "https://wa.link/bs28ik" },
   ];
 
   const mobilemenu = [...leftmenu, ...rightmenu];
- 
+
   return (
-    <Disclosure as="nav" className="bg-white shadow">
+    <Disclosure as="nav" className="bg-white shadow sticky top-0 z-50">
       {({ open }) => (
         <>
           <div className="container mx-auto flex items-center justify-between px-4 py-3">
