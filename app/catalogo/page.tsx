@@ -1,5 +1,5 @@
 import Image from "next/image";
-
+export const runtime = 'edge';
 export default function Catalogo() {
   return (
     <div className="mx-16 py-12" id="catalogo">

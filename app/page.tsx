@@ -2,8 +2,8 @@
 
 import { useState, useEffect } from "react";
 import Image from "next/image";
-import Link from 'next'
 
+export const runtime = 'edge';
 export default function Home() {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
   const totalImages = 10;
