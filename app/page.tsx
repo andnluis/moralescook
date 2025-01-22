@@ -138,7 +138,7 @@ export default function Home() {
   <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
     {/* Tarjeta 1 */}
     <a
-      href="/catalogo"
+      href="/catalogo/#boquitas"
       className="relative block rounded-tr-3xl border border-gray-100 bg-white shadow-sm"
     >
       <Image
@@ -161,7 +161,7 @@ export default function Home() {
 
     {/* Tarjeta 2 */}
     <a
-      href="/catalogo"
+      href="/catalogo/#comidas"
       className="relative block rounded-tr-3xl border border-gray-100 bg-white shadow-sm"
     >
       <Image
@@ -184,7 +184,7 @@ export default function Home() {
 
     {/* Tarjeta 3 */}
     <a
-      href="catalogo"
+      href="/catalogo/#pasteles"
       className="relative block rounded-tr-3xl border border-gray-100 bg-white shadow-sm"
     >
       <Image
@@ -207,7 +207,7 @@ export default function Home() {
 
     {/* Tarjeta 4 */}
     <a
-      href="/catalogo"
+      href="/catalogo/#catering"
       className="relative block rounded-tr-3xl border border-gray-100 bg-white shadow-sm"
     >
       <Image
@@ -230,7 +230,7 @@ export default function Home() {
 
     {/* Tarjeta 5 */}
     <a
-      href="/catalogo"
+      href="/catalogo/#galletas"
       className="relative block rounded-tr-3xl border border-gray-100 bg-white shadow-sm col-span-1 md:col-span-2 lg:col-span-1 justify-self-stretch"
     >
       <Image
